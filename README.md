@@ -2,14 +2,14 @@
 
 ## 📌 Overview
 
-This project is a **basic but structured REST API** built using **Node.js and Express**, designed to demonstrate core backend concepts:
+**Basic but structured REST API** built using **Node.js and Express**:
 
 * User authentication using **JWT (JSON Web Tokens)**
 * Secure password storage using **bcrypt hashing**
 * Basic **rate limiting** to prevent abuse
 * Clean **modular architecture** (routes, controllers, middleware)
 
-This is intentionally kept **lightweight (no database, no Docker)** to focus on understanding backend fundamentals.
+This is intentionally kept **lightweight (no database, no Docker)**
 
 ---
 
@@ -242,26 +242,10 @@ Response:
 * Dockerize application
 * Deploy
 
-### 🧪 Testing
-
-* Add unit + integration tests (Jest / Supertest)
-
----
-
-## 🎯 Learning Goals
-
-This project helps understand:
-
-* REST API design
-* Authentication vs Authorization
-* Middleware flow in Express
-* Stateless authentication (JWT)
-* Backend project structuring
-
 ---
 
 ## 📌 Summary
 
-This is a **foundational backend project** that focuses on correctness of concepts rather than production complexity. It provides a strong base to build more scalable and secure systems.
+Built a modular REST API using Node.js and Express with JWT-based authentication, bcrypt password hashing, and rate limiting for secure user access.
 
 ---
